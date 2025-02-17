@@ -76,3 +76,41 @@ body {
       .view-posts-btn:hover {
         background-color: #0cdd36;
       }
+      .comment-btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background-color: #2ec451;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        text-align: center;
+      }
+      .comment-btn:hover {
+        background-color: #2ba846;
+      }
+    
+    hr {
+        border: 0.1px solid #e5e5e5;
+        margin-bottom: 15px;
+    }
+    .comments-list {
+        margin-top: 15px;
+    }
+    .comment-item {
+        background: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .comment-item strong {
+        color: #4e8fd5;
+        font-size: 16px;
+    }
+    .comment-item p {
+        font-size: 14px;
+        color: #333;
+    }
