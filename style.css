@@ -37,3 +37,42 @@ body {
   color: gray;
   font-size: 14px;
 }
+.back-button {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #4e8fd5;
+    font-size: 16px;
+  }
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  .user-detail {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .user-detail h2 {
+    margin-bottom: 20px;
+  }
+  .user-detail strong {
+    color: #2f4879;
+    font-size: 16px;
+  }
+  .user-detail p {
+    color: gray;
+    margin-top: 5px;
+    }
+    .view-posts-btn {
+        background-color: #2eb732;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .view-posts-btn:hover {
+        background-color: #0cdd36;
+      }
