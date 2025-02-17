@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
           userItem.classList.add("user-item");
           userItem.innerHTML = `<strong>${user.name}</strong><span>${user.email}</span>`;
           userItem.addEventListener("click", () => {
-            window.location.href = `user-detail.html?id=${user.id}`;
+            window.location.href = `userdetail.html?id=${user.id}`;
           });
           userList.appendChild(userItem);
         });
