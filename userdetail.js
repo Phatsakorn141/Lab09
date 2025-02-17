@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     document.getElementById("view-posts").addEventListener("click", () => {
       if (userId) {
-        window.location.href = `user-posts.html?userId=${userId}`;
+        window.location.href = `userposts.html?userId=${userId}`;
       }
     });
   });
